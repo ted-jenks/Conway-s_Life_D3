@@ -116,7 +116,8 @@ CREATE SEED  123475689 ,
 
 
 { ----------------------------------- File Handling ------------------------------------ }
-
+{ The following code allows the array, birth, death and live cell data to be saved to file }
+{ The File address after s" must be changed to match the desired location on the computer being used }
 
 : make-array-file                               { Create a test file to read / write to  }
   s" C:\Users\tedje\Documents\Conway's Life\Array_File.dat" r/w create-file drop     \ Create the file
