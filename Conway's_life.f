@@ -408,7 +408,7 @@ bmp-APP-CLASS                   { Call class for displaying bmp's in a child win
 
 
 { ----------------------------------- File Handling ------------------------------------ }
-{ The following code allows the array, births, deaths and living cell data to be saved to file }
+{ The following code allows the array, birth, death and live cell data to be saved to file }
 { The File address after s" must be changed to match the desired location on the computer being used }
 
 : make-array-file                                { Create a test file to read / write to  }
