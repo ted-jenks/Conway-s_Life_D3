@@ -33,7 +33,7 @@ life_abs ( -- )          >> Run the game with absorbing walls
 The absorbing walls are achieved with a 'buffer' around the displayed grid of 8 cells on each edge.
 Delays between generations can be toggled in 'life' of 'life_abs' which are in 'The Game' section.
 
-An example of wat you would type into your console to run a simulation of a pi heptomino would be:
+An example of what you would type into your console to run a simulation of a pi heptomino would be:
 pi life_abs   >> For absorbing edges
 pi life       >> For wrapping edges
 
